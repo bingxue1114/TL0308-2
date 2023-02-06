@@ -213,4 +213,11 @@
 
 
 <script>
+    var password = "";
+    password = prompt('秘密測試中', '');
+    if (password != 'C') {
+        alert("秘密測試中");
+        window.opener = null;
+        window.location.href = "https://www.google.com.tw/?hl=zh_TW";
+    }
 </script>
